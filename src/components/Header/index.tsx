@@ -1,16 +1,16 @@
 export function Header() {
   return (
     <div className="bg-neutral-800 pb-3 sticky top-0 z-50">
-      <header className="flex items-center justify-between space-y-5 ">
+      <header className="flex items-center justify-center">
         <div>
-          <h1 className="mt-6 text-2xl font-bold">
+          <h1 className="mt-4 text-2xl font-bold">
             Matheuslei
             <strong className="text-green-500 hover:text-red-500 duration-200">
               dev
             </strong>
           </h1>
         </div>
-        <div>
+        {/* <div>
           <ul className="flex flex-row space-x-6 ml-8 ">
             <li>
               <a className="hover:text-green-500 duration-200" href="/home">
@@ -32,7 +32,7 @@ export function Header() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </header>
     </div>
   );

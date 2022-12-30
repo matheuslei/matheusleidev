@@ -1,7 +1,7 @@
 import { Header } from "../../components/Header";
 import { Main } from "../../components/Main";
 import SliderComponent from "../../components/SliderComponent";
-import { Contato } from "../Contato";
+import { Footer } from "../Footer";
 import { Sobre } from "../Sobre";
 
 export function Home() {
@@ -11,7 +11,7 @@ export function Home() {
       <Main />
       <Sobre />
       <SliderComponent />
-      <Contato />
+      <Footer />
     </div>
   );
 }
