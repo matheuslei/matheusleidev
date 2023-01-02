@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <div>
-      <h1 className="flex items-center justify-center text-6xl pb-10">
+      <h1 className="flex items-center justify-center text-6xl px-10">
         Contatos
       </h1>
       <div className="flex items-center justify-center bg-slate-500 h-20 rounded">
