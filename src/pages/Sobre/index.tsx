@@ -1,12 +1,12 @@
 export function Sobre() {
   return (
     <div className="p-4 pb-20 ">
-      <h1 className="flex items-center justify-center text-9xl pb-6 ">
+      <h1 className="text-center text-6xl pb-6 ">
         Skills
       </h1>
       <div className="sm:flex sm:justify-between ">
         <ul className="flex items-center justify-between ">
-          <div className="px-8">
+          <div className="pr-2">
             <li className="bg-slate-500 mb-2 hover:bg-slate-400 duration-200 rounded-md">
               <img
                 className=" h-40 flex justify-between p-8"

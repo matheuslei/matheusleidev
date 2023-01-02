@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function SliderComponent() {
   return (
     <>
-      <h1 className="flex items-center justify-center sm:text-9xl text-8xl pb-10">
+      <h1 className="flex items-center justify-center text-6xl pb-10">
         Projetos
       </h1>
 

@@ -1,11 +1,11 @@
 export function Footer() {
   return (
     <div>
-      <h1 className="flex items-center justify-center sm:text-9xl text-7xl pb-10">
+      <h1 className="flex items-center justify-center text-6xl pb-10">
         Contatos
       </h1>
       <div className="flex items-center justify-center bg-slate-500 h-20 rounded">
-        <ul className="flex space-x-16 ">
+        <ul className="flex space-x-14 mx-2 ">
           <a href="https://github.com/matheuslei" target="_blank">
             <li>
               <img className="w-10 " src="imgs/github.svg" alt="github" />
@@ -28,7 +28,7 @@ export function Footer() {
           </a>
         </ul>
       </div>
-      <div className="flex items-center justify-center pb-4 pt-2 italic text-xs">
+      <div className="text-center pb-4 pt-2 italic text-xs">
         <p>
           Todos os direitos reservados 2022 | Desenvolvido por Matheus Leite
         </p>
