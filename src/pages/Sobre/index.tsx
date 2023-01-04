@@ -5,7 +5,7 @@ export function Sobre() {
         Skills
       </h1>
       <div className="sm:flex sm:justify-between ">
-        <ul className="flex items-center justify-between ">
+        <ul className="flex items-center justify-center ">
           <div className="pr-2">
             <li className="bg-slate-500 mb-2 hover:bg-slate-400 duration-200 rounded-md">
               <img
