@@ -16,6 +16,11 @@ export function Main() {
           </span>
           <br /> sou Desenvolvedor Front-end
         </h1>
+        <button className="rounded-[12px] border-2 px-2 my-2 hover:border-green-500 hover:text-xl duration-200 hover:bg-gray-600 ">
+          <a href="/matheusleidev-CV.pdf" target="_blank">
+            Download CV
+          </a>
+        </button>
       </div>
     </div>
   );
