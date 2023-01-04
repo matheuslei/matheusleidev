@@ -5,7 +5,7 @@ export function Header() {
         <div>
           <h1 className="mt-4 text-2xl font-bold">
             Matheuslei
-            <strong className="animate-pulse duration-200">
+            <strong className="text-green-500 animate-pulse duration-200">
               dev
             </strong>
           </h1>
