@@ -3,12 +3,14 @@ export function Header() {
     <div className="bg-neutral-800 pb-3 sticky top-0 z-50">
       <header className="flex items-center justify-center">
         <div>
-          <h1 className="mt-4 text-2xl font-bold">
-            Matheuslei
-            <strong className="text-green-500 animate-pulse duration-200">
-              dev
-            </strong>
-          </h1>
+          <a href="/">
+            <h1 className="mt-4 text-2xl font-bold">
+              Matheuslei
+              <strong className="text-green-500 hover:text-red-500 duration-200">
+                dev
+              </strong>
+            </h1>
+          </a>
         </div>
         {/* <div>
           <ul className="flex flex-row space-x-6 ml-8 ">
