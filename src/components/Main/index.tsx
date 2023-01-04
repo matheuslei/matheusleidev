@@ -16,7 +16,7 @@ export function Main() {
           </span>
           <br /> sou Desenvolvedor Front-end
         </h1>
-        <button className="rounded-[10px] border-2 px-4 py-1 my-4 hover:border-green-500 hover:text-xl duration-200 hover:bg-gray-600 ">
+        <button className="bg-neutral-800 rounded-[10px] border-2 px-4 py-1 my-4 hover:border-green-500 hover:text-xl duration-200 hover:bg-gray-600 ">
           <a className="flex" href="/matheusleidev-CV.pdf" target="_blank">
             Download CV
             <img
