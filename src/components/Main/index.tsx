@@ -1,6 +1,6 @@
 export function Main() {
   return (
-     <div className="container lg:flex lg:justify-between items-center my-10 sm:py-60 sm:bg-[url('/imgs/background.jpg')] rounded bg-no-repeat bg-cover">
+     <div className="container lg:flex lg:justify-between items-center sm:py-60 sm:bg-[url('/imgs/background.jpg')] rounded bg-no-repeat bg-cover">
       <div className="mx-auto mb-10">
         <img
           className="rounded-full mx-auto "
