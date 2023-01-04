@@ -61,7 +61,7 @@ export function Sobre() {
         </ul>
         <div className="sm:w-1/2 sm:flex sm:items-center sm:justify-center sm:text-c sm:px-8 py-40  ">
           <p className="text-center">
-            Bem vindo ao meu portfólio ! <br /> Atuo na área de TI desde 2014
+            Bem vindo ao meu portfólio! <br /> Atuo na área de TI desde 2014
             como service desk. Em 2020 realizei o curso FullStack Bootcamp da
             IGTI e atualmente realizo outros cursos com o objetido de aprimorar
             minhas habilidades.
