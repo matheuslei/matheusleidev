@@ -66,6 +66,19 @@ export function Sobre() {
             </span>
             e atualmente realizo outros cursos com o objetido de aprimorar
             minhas habilidades.
+                        <button className="flex mx-auto bg-neutral-800 rounded-[10px] border-2 pl-4 pr-2 py-1 my-4 hover:border-green-500  text-xl hover:text-2xl duration-200 hover:bg-gray-600 ">
+              <a
+                href="https://www.linkedin.com/in/matheusleidev/details/certifications/"
+                target="_blank"
+                className="pr-1"
+              >
+                Certificados
+              </a>
+              <span className="flex h-1 w-3 ">
+                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+              </span>
+            </button>
           </p>
         </div>
       </div>
