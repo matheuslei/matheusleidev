@@ -5,3 +5,11 @@
   src: url("fonts/icones.ttf") format("ttf");
 }
 @tailwind utilities;
+
+@layer components {
+  .swiper,
+  .swiper-button-prev,
+  .swiper-button-next {
+    @apply text-green-500 !important;
+  }
+}
