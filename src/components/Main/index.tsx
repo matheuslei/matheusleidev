@@ -3,7 +3,7 @@ export function Main() {
      <div className="container lg:flex lg:justify-between items-center sm:py-60 sm:bg-[url('/imgs/background.jpg')] rounded bg-no-repeat bg-cover">
       <div className="mx-auto mb-10">
         <img
-          className="rounded-full mx-auto "
+          className="sm:rounded-full rounded-full  w-48 md:w-80 lg:w-96 mx-auto m "
           src="https://github.com/matheuslei.png"
           alt="Avatar"
         />
