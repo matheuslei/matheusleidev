@@ -1,14 +1,16 @@
 @tailwind base;
 @tailwind components;
 @font-face {
-  font-family: "Icones";
-  src: url("fonts/icones.ttf") format("ttf");
+  font-family: 'Icones';
+  src: url('fonts/icones.ttf') format('ttf');
 }
 @tailwind utilities;
 
 @layer components {
-  .swiper,
-  .swiper-button-prev,
+  .swiper .swiper-pagination .swiper-pagination-bullet {
+    @apply bg-green-500  !important;
+  }
+  .swiper .swiper-button-prev,
   .swiper-button-next {
     @apply text-green-500 !important;
   }
