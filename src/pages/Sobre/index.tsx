@@ -1,11 +1,9 @@
 export function Sobre() {
   return (
     <div className="p-4 pb-20 ">
-      <h1 className="text-center text-6xl pb-6 ">
-        Skills
-      </h1>
-      <div className="sm:flex sm:justify-between ">
-        <ul className="flex items-center justify-center ">
+      <h1 className="text-center text-6xl pb-6 ">Skills</h1>
+      <div className="sm:flex sm:justify-between">
+        <ul className="flex items-center justify-center mx-auto">
           <div className="pr-2">
             <li className="bg-slate-500 mb-2 hover:bg-slate-400 duration-200 rounded-md">
               <img
@@ -59,7 +57,7 @@ export function Sobre() {
             </li>
           </div>
         </ul>
-        <div className="sm:w-1/2 sm:flex sm:items-center sm:justify-center sm:text-c sm:px-8 py-40  ">
+        <div className="sm:w-1/2 sm:flex sm:items-center sm:justify-center sm:text-c sm:px-8 py-40  mx-auto ">
           <p className="text-center text-2xl">
             Bem vindo ao meu portfólio! <br /> Atuo na área de TI desde 2014
             como service desk. Em 2020 realizei o curso{" "}
