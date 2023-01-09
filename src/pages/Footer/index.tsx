@@ -5,30 +5,30 @@ export function Footer() {
         Contatos
       </h1>
       <div className="flex items-center justify-center bg-slate-500 h-20 rounded">
-        <ul className="flex space-x-14 mx-2 ">
+        <div className="flex space-x-14 mx-2 ">
           <a href="https://github.com/matheuslei" target="_blank">
-            <li>
+            <div>
               <img className="w-10 " src="imgs/github.svg" alt="github" />
-            </li>
+            </div>
           </a>
           <a href="https://www.linkedin.com/in/matheusleidev" target="_blank">
-            <li>
-              <img className="w-10 " src="imgs/linkedin.svg" alt="Linkedin" />
-            </li>
+            <div>
+              <img className="w-10 " src="imgs/linkedin.svg" alt="divnkedin" />
+            </div>
           </a>
           <a href="https://www.instagram.com/matheuslei.dev/" target="_blank">
-            <li>
+            <div>
               <img className="w-10 " src="imgs/instagram.svg" alt="Instagram" />
-            </li>
+            </div>
           </a>
           <a href="mailto:matheus.lei@hotmail.com" target="_blank">
-            <li>
+            <div>
               <img className="w-10 " src="imgs/email.svg" alt="Email" />
-            </li>
+            </div>
           </a>
-        </ul>
+        </div>
       </div>
-      <div className="text-center pb-4 pt-2 italic text-xs">
+      <div className="text-center pb-4 pt-2 itadivc text-xs">
         <p>
           Todos os direitos reservados 2022 | Desenvolvido por Matheus Leite
         </p>
