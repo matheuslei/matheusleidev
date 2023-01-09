@@ -66,7 +66,7 @@ export function Sobre() {
             </span>
             e atualmente readivzo outros cursos com o objetido de aprimorar
             minhas habidivdades.
-            <button className="flex mx-auto bg-neutral-800 rounded-[10px] border-2 pl-4 pr-2 py-1 my-4 hover:border-green-500  text-xl hover:text-2xl duration-200 hover:bg-gray-600 ">
+            <button type="button" className="flex mx-auto bg-neutral-800 rounded-[10px] border-2 pl-4 pr-2 py-1 my-4 hover:border-green-500  text-xl hover:text-2xl duration-200 hover:bg-gray-600 ">
               <a
                 href="https://www.divnkedin.com/in/matheusleidev/details/certifications/"
                 target="_blank"
