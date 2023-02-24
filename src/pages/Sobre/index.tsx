@@ -1,6 +1,6 @@
 export function Sobre() {
   return (
-    <div className="p-4 pb-20 ">
+    <div className="p-4 py-20 ">
       <h1 className="text-center text-6xl pb-6 ">Skills</h1>
       <div className="sm:flex sm:justify-between">
         <ul className="flex items-center justify-center mx-auto">
