@@ -10,7 +10,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function SliderComponent() {
   return (
-    <>
+    <div className="pb-20">
       <h1 className="flex items-center justify-center text-6xl pb-10">
         Projetos
       </h1>
@@ -45,7 +45,7 @@ export default function SliderComponent() {
           >
             <img
               className="object-fill w-full h-2/5"
-              src="https://media.licdn.com/dms/image/C4D22AQE_-PJMdBJujg/feedshare-shrink_800/0/1666483481366?e=1675296000&v=beta&t=ofW5KizjLQffVJc7VcSc2986loaeNoT15hG0VctoBFw"
+              src="https://raw.githubusercontent.com/matheuslei/explorerLab-01/main/.github/project.png"
               alt="image slide 2"
             />
           </a>
@@ -54,7 +54,7 @@ export default function SliderComponent() {
           <a href="https://github.com/matheuslei/NLWCopa" target="_blank">
             <img
               className="object-fill w-full h-2/5"
-              src="https://media.licdn.com/dms/image/C4D22AQG7J9lnOFhTog/feedshare-shrink_800/0/1668267752290?e=1675296000&v=beta&t=zSQu2QS7qPmkinNL8BlrJIchieVo4tBjrwe2wagym6I"
+              src="https://user-images.githubusercontent.com/65515537/201481765-e33de3f0-25b7-4d05-9496-f51786dbca43.png"
               alt="image slide 3"
             />
           </a>
@@ -66,13 +66,13 @@ export default function SliderComponent() {
           >
             <img
               className="object-fill w-full h-2/5"
-              src="https://media.licdn.com/dms/image/C5622AQEu2DgVXoKggA/feedshare-shrink_800/0/1665502034838?e=1675296000&v=beta&t=rnSOF-EC12G5QlLLFcrVmzI7nwUxxqvTwEER6_mUr10"
+              src="https://user-images.githubusercontent.com/65515537/195133183-35fe99cb-4d4b-4752-94c6-153ad93bae33.gif"
               alt="image slide 3"
             />
           </a>
           <p></p>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
