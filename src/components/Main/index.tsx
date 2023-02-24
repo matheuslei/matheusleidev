@@ -11,7 +11,7 @@ export function Main() {
       <div className="mx-auto text-center px-10 ">
         <h1 className="text-2xl">
           Olá, meu nome é <br />
-          <span className="text-4xl text-green-500 hover:text-red-500 duration-200 ">
+          <span className="text-2xl text-green-500 hover:text-red-500 duration-200 ">
             Matheus Leite de Castro
           </span>{" "}
           <br />
