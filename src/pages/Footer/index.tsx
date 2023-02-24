@@ -47,7 +47,7 @@ export function Footer() {
 
   return (
     <div>
-      <div className="">
+      <div>
         <h1 className="flex items-center justify-center text-6xl py-10 ">
           Contato
         </h1>
@@ -57,7 +57,7 @@ export function Footer() {
           onSubmit={sendEmail}
         >
           <input
-            className="bg-neutral-700 rounded w-60 sm:w-96 m-1 pl-4 "
+            className="bg-neutral-700 rounded w-4/5  m-1 pl-4 "
             type="text"
             placeholder="Digite seu nome"
             onChange={(e) => setName(e.target.value)}
@@ -65,7 +65,7 @@ export function Footer() {
           />
 
           <input
-            className="bg-neutral-700 rounded w-60 sm:w-96 m-1 pl-4  "
+            className="bg-neutral-700 rounded w-4/5 m-1 pl-4  "
             type="text"
             placeholder="Digite seu email"
             onChange={(e) => setEmail(e.target.value)}
@@ -73,7 +73,7 @@ export function Footer() {
           />
 
           <textarea
-            className="bg-neutral-700 rounded w-60 sm:w-96 m-1 pl-4 "
+            className="bg-neutral-700 rounded w-4/5 m-1 pl-4 "
             placeholder="Digite sua mensagem..."
             onChange={(e) => setMessage(e.target.value)}
             value={message}
