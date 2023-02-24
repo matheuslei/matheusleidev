@@ -22,7 +22,11 @@ export function Main() {
           />
         </h1>
         <button className="bg-neutral-800 rounded-[10px] border-2 px-4 py-1 my-4 hover:border-green-500 hover:text-xl duration-200 hover:bg-gray-600 ">
-          <a className="flex" href="/matheusleidev-CV.pdf" target="_blank">
+          <a
+            className="flex px-4 py-1"
+            href="/matheusleidev-CV.pdf"
+            target="_blank"
+          >
             Download CV
             <img
               className="pl-4 animate-bounce "
