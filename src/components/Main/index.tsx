@@ -17,7 +17,7 @@ export function Main() {
           <br />
           <img
             className="mx-auto -p-20"
-            src="https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=24&pause=20&color=FFFFFF&center=true&lines=sou+Desenvolvedor+Front-End;sou+Desenvolvedor+Back-End;sou+Desenvolvedor+Fullstack;sou+Desenvolvedor+Web"
+            src="https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=24&pause=20&color=FFFFFF&center=true&lines=sou+Desenvolvedor+RPA;sou+especialista+em+Automação;sou+apaixonado+por+transformação+digital"
             alt="Typing SVG"
           />
         </h1>
